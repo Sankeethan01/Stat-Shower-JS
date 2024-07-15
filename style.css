@@ -1,0 +1,52 @@
+body{
+    background-color:darkcyan;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 80vh;
+    background-color:gray;
+    
+}
+.box h1{
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+}
+.box select{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 5vh;
+    padding: 5px;
+    
+    
+}
+.box button{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10px;
+    width: 20vw;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
+.box button:hover{
+    cursor: pointer;
+}
+.box .result{
+    width: 40vw;
+    margin-left: 10vw;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
